@@ -4,6 +4,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        Dice dice=new Dice(1);
+        for(int i=1;i<=10;i++){
+            System.out.println(dice.roll());
+        }
     }
 }
